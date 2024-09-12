@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('path/to/your/font.woff2') format('woff2'),
+    url('path/to/your/font.woff') format('woff');
+}
+
+* {
+  margin: 2;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 22px;
+}
+
+.options {
+  background-color: #A3B565;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: #FFFDEF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #C4C3E3;
+}
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+}
+
+p {
+  text-align: justify;
+}
+
+.header {
+  padding: 1 auto;
+  text-align: center;
+  background: #b8c19a;
+  color: white;
+  font-size: 30px;
+}
+
+.logo img {
+  margin-top: 20px;
+  width: 100px;
+  flex: 1;
+}
+
+hr {
+  border-top: 2px solid #504E76;
+}
+
+h3 {
+  background-color: #FDF8E2;
+  background-size: auto;
+  color: #504E76;
+}
+
+.crosswords {
+  text-align: center;
+}
+
+.crossword-image img {
+  margin-top: 30px;
+  height: 600px;
+  border-radius: 8px;
+}
